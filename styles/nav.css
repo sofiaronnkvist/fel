@@ -27,27 +27,77 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 4vw;
-}
-
-.nav-cross {
-  display: none;
+  padding: 4vw;
 }
 
 .right-nav {
-  display: none;
-  width: 100vw;
-  height: 100vh;
-  background-color: var(--off-black);
-  /* display: flex; */
-  justify-content: flex-end;
+  width: 100%;
+  height: 90vh;
+  background-color: black;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-nav ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 .nav-item {
-  display: none;
   color: white;
   list-style: none;
-  text-align: left;
-  padding-right: 20px;
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.nav-logo {
+  cursor: pointer;
+}
+
+.nav-hamburger {
+  height: 9vw;
+}
+
+.nav-cross {
+  height: 5vw;
+}
+
+.open {
+  display: block;
+}
+
+.closed {
+  display: none;
+}
+
+/* Media queries */
+
+@media only screen and (min-width: 768px) {
+  .nav-item {
+    display: block;
+  }
+
+  .right-nav {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    padding: 4vw;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .left-nav {
+    width: 50%;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  .nav-hamburger {
+    display: none;
+  }
 }
