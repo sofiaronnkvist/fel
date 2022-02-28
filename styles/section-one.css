@@ -65,3 +65,10 @@
   top: 1vw;
   font-size: 16vw;
 }
+p,
+h1,
+h2,
+h3,
+img {
+  pointer-events: none;
+}
