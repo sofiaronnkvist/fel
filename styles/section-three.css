@@ -12,19 +12,61 @@
   grid-area: 1 / 1 / 6 / 8;
   background-color: var(--main-beige);
   border-radius: 2.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
 }
 .section-three-2 {
   grid-area: 6 / 1 / 8 / 4;
   background-color: var(--main-purple);
   border-radius: 2.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .section-three-3 {
   grid-area: 6 / 4 / 8 / 8;
   background-color: var(--main-purple);
   border-radius: 2.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--main-purple);
 }
 .section-three-4 {
   grid-area: 8 / 1 / 10 / 8;
   background-color: var(--main-purple);
   border-radius: 2.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: var(--main-beige);
+}
+
+.section-three-1 h2 {
+  color: var(--main-purple);
+  font-weight: 500;
+}
+
+.section-three-1 h3 {
+  font-weight: 500;
+}
+
+.section-three-1 p:nth-child(4) {
+  color: var(--main-purple);
+  font-weight: 500;
+}
+
+.star-2 {
+  position: absolute;
+  right: 2vw;
+  top: 1vw;
+  font-size: 12vw;
+}
+
+.section-three-2 img {
+  height: 18vw;
 }
