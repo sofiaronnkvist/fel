@@ -17,11 +17,11 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-p,
-h1,
-h2,
-h3,
-img {
+.tiltable p,
+.tiltable h1,
+.tiltable h2,
+.tiltable h3,
+.tiltable img {
   pointer-events: none;
 }
 
