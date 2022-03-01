@@ -1,0 +1,30 @@
+.section-three-container {
+  height: 190vw;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  grid-column-gap: 2vw;
+  grid-row-gap: 2vw;
+  margin: 4vw 4vw 4vw 4vw;
+}
+
+.section-three-1 {
+  grid-area: 1 / 1 / 6 / 8;
+  background-color: var(--main-beige);
+  border-radius: 2.5vw;
+}
+.section-three-2 {
+  grid-area: 6 / 1 / 8 / 4;
+  background-color: var(--main-purple);
+  border-radius: 2.5vw;
+}
+.section-three-3 {
+  grid-area: 6 / 4 / 8 / 8;
+  background-color: var(--main-purple);
+  border-radius: 2.5vw;
+}
+.section-three-4 {
+  grid-area: 8 / 1 / 10 / 8;
+  background-color: var(--main-purple);
+  border-radius: 2.5vw;
+}
