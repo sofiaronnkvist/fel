@@ -2,6 +2,7 @@ const tiltMaxDeg = 6;
 const transitionTime = 0.2;
 let currentTiltable = null;
 let lastCurrentTiltable = null;
+let perspective = 1000;
 
 const tiltables = document.querySelectorAll(".tiltable");
 
@@ -10,8 +11,9 @@ tiltables.forEach((tiltable) => {
   const wrapper = document.createElement("div");
   parent.replaceChild(wrapper, tiltable);
   wrapper.appendChild(tiltable);
-  wrapper.style.perspective = "1000px";
+  wrapper.style.perspective = `${perspective}px`;
   wrapper.style.perspectiveOrigin = "center";
+  wrapper.classList.add("tilt-wrapper");
   const gridArea = window.getComputedStyle(tiltable).gridArea;
   if (gridArea !== "auto") {
     //If the div is not a grid-child it has "grid-area: auto".
@@ -25,6 +27,17 @@ tiltables.forEach((tiltable) => {
   const bgColor = window.getComputedStyle(tiltable).backgroundColor;
   tiltable.setAttribute("data-bg-color", bgColor);
 });
+const wrappers = document.querySelectorAll(".tilt-wrapper");
+calculatePerspective();
+window.addEventListener("resize", calculatePerspective);
+
+function calculatePerspective() {
+  perspective = window.innerWidth * 3;
+  wrappers.forEach((wrapper) => {
+    wrapper.style.perspective = `${perspective}px`;
+  })
+}
+
 
 document.addEventListener("mousemove", (e) => {
   if (e.target.classList.contains("tiltable")) {
@@ -55,7 +68,6 @@ document.addEventListener("mousemove", (e) => {
     currentTiltable = null;
   }
 });
-
 function ConvertRGBStringToArray(rgbString) {
   rgbString = rgbString.slice(4, -1);
   rgbString = rgbString.split(", ");

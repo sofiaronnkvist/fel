@@ -22,6 +22,7 @@ body {
 .tiltable h1,
 .tiltable h2,
 .tiltable h3,
+.tiltable h4,
 .tiltable img {
   pointer-events: none;
 }
@@ -96,6 +97,7 @@ nav {
     padding: 4vw;
     align-items: center;
     justify-content: flex-start;
+    background: none;
   }
 
   .left-nav {
