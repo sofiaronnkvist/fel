@@ -9,6 +9,9 @@
   text-align: center;
 }
 
+.prompter-container {
+}
+
 .prompter {
   color: var(--main-purple);
   font-size: 5vw;

@@ -1,4 +1,4 @@
-const breakPoint = 720;//px
+const breakPoint = 768;//px
 
 const widthMobile = 92;//vw
 
