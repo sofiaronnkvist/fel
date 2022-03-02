@@ -55,3 +55,9 @@ p {
 .section-six-5 {
   grid-area: 6 / 1 / 7 / 3;
 }
+
+.section-six-5 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

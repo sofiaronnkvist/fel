@@ -17,7 +17,7 @@
   justify-content: flex-end;
 }
 .section-one-2 {
-  grid-area: 5 / 1 / 6 / 3;
+  grid-area: 5 / 1 / 7 / 3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,19 +36,6 @@
 .section-one-3 div {
   display: flex;
   justify-content: flex-end;
-}
-.section-one-4 {
-  grid-area: 6 / 1 / 7 / 3;
-  background-color: var(--main-beige);
-  border-radius: 2.5vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5vw;
-}
-.section-one-4 img {
-  height: 8vw;
-  object-fit: fill;
 }
 .section-one-5 {
   grid-area: 7 / 1 / 10 / 5;
