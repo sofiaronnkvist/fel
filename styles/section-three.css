@@ -70,3 +70,8 @@
 .section-three-2 img {
   height: 18vw;
 }
+
+.light-button {
+  background: none;
+  border: none;
+}
