@@ -92,3 +92,7 @@
   text-align: right;
   padding: 1vw;
 }
+
+.footer-desktop {
+  display: none;
+}
