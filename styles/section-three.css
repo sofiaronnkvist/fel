@@ -75,3 +75,6 @@
   background: none;
   border: none;
 }
+.light-button:hover {
+  cursor: pointer;
+}
