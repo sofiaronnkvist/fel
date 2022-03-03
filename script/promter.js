@@ -1,4 +1,4 @@
-const content = " &nbsp; våga &nbsp; &nbsp; upplev------upptäck &nbsp;";
+const content = " &nbsp; VÅGA &nbsp; &nbsp; UPPLEV------UPPTÄCK &nbsp;";
 const repeats = 4;
 const pTags = document.querySelectorAll(".prompter-container p");
 let pWidth = 0;

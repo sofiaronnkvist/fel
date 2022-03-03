@@ -27,6 +27,20 @@
   position: absolute;
   top: 2vw;
   color: var(--main-purple);
-  font-size: 5vw;
+  font-size: 4vw;
   white-space: nowrap;
+}
+
+@media only screen and (min-width: 768px) {
+  
+  .prompter-container {
+    height: 4vw;
+    margin-top: 0vw;
+  }
+
+  .prompter-container p {
+    top: 1vw;
+  font-size: 2vw;
+
+  }
 }

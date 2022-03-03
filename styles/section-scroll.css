@@ -34,7 +34,7 @@
 
 .card h3 {
   font-size: 4vh;
-  margin-top: 4vh;
+  margin-top: 2vh;
   margin-left: 2vw;
   color: var(--main-purple);
 }
@@ -43,11 +43,12 @@
   font-size: 2vh;
   margin-top: 6vh;
   margin-left: 2vw;
+  line-height: normal;
 }
 
 .card a {
   font-size: 2vh;
-  margin-top: 4vh;
+  margin-top: auto;
   margin-left: 2vw;
   margin-bottom: 2vw;
   text-decoration: none;
@@ -82,4 +83,17 @@
   .section-scroll h2 {
     font-size: 10vw;
   }
+
+  .card{
+    border-radius: 0.7vw;
+  }
+
+  .card a {
+    margin-bottom: 0.75vw;
+  }
+
+  .card img{
+    border-radius: 0.7vw;
+  }
+
 }
