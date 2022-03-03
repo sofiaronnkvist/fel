@@ -14,7 +14,7 @@
   border-radius: 2.5vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   position: relative;
   padding: 2vw;
 }
@@ -52,6 +52,9 @@
   color: var(--main-beige);
   padding: 2vw;
 }
+.section-three-4 h2 {
+  font-weight: 500;
+}
 
 .section-three-1 h1 {
   color: var(--main-purple);
@@ -62,15 +65,15 @@
   font-weight: 500;
 }
 
-.section-three-1 p:nth-child(4) {
+.section-three-1 p:nth-child(3) {
   color: var(--main-purple);
   font-weight: 500;
 }
 
 .star-2 {
   position: absolute;
-  right: 2vw;
-  top: 1vw;
+  right: 5vw;
+  top: 5vw;
   font-size: 12vw;
 }
 
@@ -91,6 +94,9 @@
     height: 80vh;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
+    margin: 1vw 1vw 1vw 1vw;
   }
   .section-three-1 {
     grid-area: 1 / 1 / 5 / 6;
@@ -107,5 +113,8 @@
   .section-three-4 {
     grid-area: 3 / 6 / 5 / 11;
     border-radius: 0.7vw;
+  }
+  .star-2 {
+    font-size: 6vw;
   }
 }

@@ -106,9 +106,9 @@
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 2vw;
-    grid-row-gap: 2vw;
-    margin: 2vw 4vw 4vw 4vw;
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
+    margin: 1vw 1vw 1vw 1vw;
   }
   .footer-desktop-1 {
     grid-area: 1 / 1 / 3 / 3;

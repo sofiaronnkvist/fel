@@ -16,7 +16,8 @@
   .section-two-container {
     display: flex;
     align-items: center;
-    gap: 2vw;
+    gap: 1vw;
+    margin: 1vw;
   }
   .clouds-container {
     min-width: 20%;

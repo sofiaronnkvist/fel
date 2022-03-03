@@ -68,6 +68,11 @@ nav {
   align-items: center;
 }
 
+li {
+  margin: 17vw;
+  text-align: center;
+}
+
 .right-nav ul {
   list-style-type: none;
   padding: 0;
@@ -100,6 +105,10 @@ nav {
   display: none;
 }
 
+.freeze {
+  overflow: hidden;
+}
+
 /* Media queries */
 
 @media only screen and (min-width: 768px) {
@@ -130,7 +139,8 @@ nav {
   }
 
   p {
-    font-size: 1.9vw;
+    font-size: 1.5vw;
+    line-height: 2vw;
   }
 
   h1 {
@@ -142,6 +152,10 @@ nav {
   }
 
   h3 {
-    font-size: 2.5vw;
+    font-size: 1.7vw;
+  }
+  li {
+    margin: 0vw;
+    text-align: left;
   }
 }

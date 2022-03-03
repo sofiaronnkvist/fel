@@ -43,7 +43,7 @@
 }
 .section-one-3 div {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 .section-one-5 {
   grid-area: 7 / 1 / 10 / 5;
@@ -61,7 +61,7 @@
 .star {
   position: absolute;
   right: 2vw;
-  top: 1vw;
+  top: 5vw;
   font-size: 16vw;
   color: var(--black);
 }
@@ -71,6 +71,9 @@
     height: 80vh;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
+    margin: 2vw 1vw 1vw 1vw;
   }
   .section-one-1 {
     grid-area: 1 / 1 / 5 / 6;
@@ -83,6 +86,11 @@
     align-items: flex-end;
     background-color: var(--main-beige);
     border-radius: 0.7vw;
+    padding: 2vw;
+  }
+  .section-one-special img {
+    height: 2vw;
+    cursor: pointer;
   }
   .section-one-special h3 {
     color: var(--main-purple);
@@ -99,5 +107,11 @@
   .section-one-5 {
     grid-area: 3 / 6 / 5 / 9;
     border-radius: 0.7vw;
+    background-color: var(--black);
+  }
+  .star {
+    color: var(--main-purple);
+    font-size: 6vw;
+    top: 3vw;
   }
 }
