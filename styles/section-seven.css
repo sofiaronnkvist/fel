@@ -10,7 +10,8 @@
 }
 
 .prompter-container {
-  height: 100px;
+  height: 9vw;
+  margin-top: 2vw;
   position: relative;
   overflow-x: auto;
   -ms-overflow-style: none;
@@ -24,6 +25,7 @@
 
 .prompter-container p {
   position: absolute;
+  top: 2vw;
   color: var(--main-purple);
   font-size: 5vw;
   white-space: nowrap;
