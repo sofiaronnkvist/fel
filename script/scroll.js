@@ -8,7 +8,7 @@ const heightDesktop = 66//vh
 const marginMobile = 4;//vw
 const marginDesktop = 4;//vw
 
-const overlapWidthMobile = 25//%
+const overlapWidthMobile = 20//%
 const overlapWidthDesktop = 33//%
 
 let cardWidth = 0;

@@ -10,15 +10,21 @@
 }
 
 .prompter-container {
+  height: 100px;
+  position: relative;
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  pointer-events: none;
 }
 
-.prompter {
+.prompter-container::-webkit-scrollbar {
+  display: none;
+}
+
+.prompter-container p {
+  position: absolute;
   color: var(--main-purple);
   font-size: 5vw;
-}
-
-@media only screen and (min-width: 768px) {
-  .section-seven-container h2 {
-    font-size: 5vw;
-  }
+  white-space: nowrap;
 }

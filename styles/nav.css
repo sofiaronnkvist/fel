@@ -10,6 +10,23 @@ body {
   background-color: var(--black);
 }
 
+p {
+  font-size: 3.5vw;
+  line-height: 5.5vw;
+}
+
+h1 {
+  font-size: 10vw;
+}
+
+h2 {
+  font-size: 8vw;
+}
+
+h3 {
+  font-size: 4vw;
+}
+
 :root {
   --main-purple: #6142da;
   --main-beige: #edebdf;
@@ -110,5 +127,21 @@ nav {
 
   .nav-hamburger {
     display: none;
+  }
+
+  p {
+    font-size: 1.9vw;
+  }
+
+  h1 {
+    font-size: 7vw;
+  }
+
+  h2 {
+    font-size: 4vw;
+  }
+
+  h3 {
+    font-size: 2.5vw;
   }
 }

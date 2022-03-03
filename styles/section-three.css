@@ -1,5 +1,5 @@
 .section-three-container {
-  height: 190vw;
+  height: 200vw;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(9, 1fr);
@@ -16,6 +16,7 @@
   flex-direction: column;
   justify-content: center;
   position: relative;
+  padding: 2vw;
 }
 .section-three-2 {
   grid-area: 6 / 1 / 8 / 4;
@@ -32,9 +33,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 2vw;
   align-items: center;
   text-align: center;
   color: var(--main-purple);
+  padding: 2vw;
+}
+.section-three-3 img {
+  height: 16vw;
 }
 .section-three-4 {
   grid-area: 8 / 1 / 10 / 8;
@@ -44,9 +50,10 @@
   flex-direction: column;
   justify-content: space-around;
   color: var(--main-beige);
+  padding: 2vw;
 }
 
-.section-three-1 h2 {
+.section-three-1 h1 {
   color: var(--main-purple);
   font-weight: 500;
 }

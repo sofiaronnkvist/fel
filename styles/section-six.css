@@ -1,47 +1,47 @@
 .section-six-container {
-  height: 190vw;
+  height: 220vw;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(8, 1fr);
   grid-column-gap: 2vw;
   grid-row-gap: 2vw;
   margin: 2vw 4vw 4vw 4vw;
 }
 
 .section-six-1 {
-  grid-area: 1 / 1 / 4 / 3;
+  grid-area: 1 / 1 / 6 / 3;
   background-color: var(--main-purple);
   border-radius: 2.5vw;
   color: var(--main-beige);
   display: flex;
   flex-direction: column;
   gap: 1vw;
-  padding: 1vw;
+  padding: 2vw;
 }
 .section-six-1 h2,
 h3,
 p {
   font-weight: 500;
 }
-.section-six-1 p {
-  font-size: 3.5vw;
-}
 .section-six-2 {
-  grid-area: 4 / 1 / 5 / 2;
+  grid-area: 6 / 1 / 8 / 2;
   background-color: var(--main-beige);
   border-radius: 2.5vw;
   color: var(--main-purple);
   padding: 1vw;
 }
+.section-six-2-desktop {
+  display: none;
+}
 .section-six-3 {
-  grid-area: 4 / 2 / 5 / 3;
+  grid-area: 6 / 2 / 8 / 3;
   background-color: var(--main-purple);
   border-radius: 2.5vw;
   color: var(--main-beige);
   padding: 1vw;
 }
 .section-six-4 {
-  grid-area: 5 / 1 / 6 / 3;
+  grid-area: 8 / 1 / 9 / 3;
   filter: grayscale(100%);
 }
 
@@ -53,7 +53,7 @@ p {
 }
 
 .section-six-5 {
-  grid-area: 6 / 1 / 7 / 3;
+  grid-area: 9 / 1 / 10 / 3;
 }
 
 .section-six-5 img {
@@ -72,12 +72,12 @@ p {
     grid-area: 1 / 1 / 4 / 5;
     border-radius: 0.7vw;
   }
-  .section-six-1 p {
-    font-size: 1.2vw;
-  }
   .section-six-2 {
     grid-area: 1 / 5 / 3 / 11;
     border-radius: 0.7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .section-six-3 {
     display: none;
@@ -89,5 +89,8 @@ p {
   .section-six-5 {
     grid-area: 4 / 1 / 6 / 5;
     border-radius: 0.7vw;
+  }
+  .section-six-2-desktop {
+    display: block;
   }
 }

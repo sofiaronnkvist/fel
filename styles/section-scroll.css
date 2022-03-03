@@ -25,6 +25,34 @@
   transition: 0.5s;
 }
 
+.card h4 {
+  margin-top: 4vw;
+  margin-left: 2vw;
+  font-size: 5vw;
+}
+
+.card h3 {
+  margin-top: 4vw;
+  margin-left: 2vw;
+  font-size: 7vw;
+  color: var(--main-purple);
+}
+
+.card p {
+  margin-top: 4vw;
+  margin-left: 2vw;
+}
+
+.card a {
+  margin-top: 4vw;
+  margin-left: auto;
+  margin-right: 12vw;
+  margin-bottom: 2vw;
+  font-size: 5vw;
+  text-decoration: none;
+  color: var(--main-purple);
+}
+
 .card div:nth-child(1) {
   height: 50%;
   width: 100%;
@@ -47,4 +75,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  .section-scroll h2 {
+    font-size: 10vw;
+  }
 }
