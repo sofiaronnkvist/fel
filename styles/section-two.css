@@ -3,7 +3,7 @@
 }
 
 .section-two-text {
-  color: white;
+  color: var(--off-black);
   font-size: 13vw;
   font-weight: 500;
 }
